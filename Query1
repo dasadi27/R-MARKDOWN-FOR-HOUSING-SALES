@@ -1,4 +1,6 @@
---Average Price
+-- Analysis of Housing Prices 
+
 
 ```{r}
-mean(df$price)
+names(df)
+```
