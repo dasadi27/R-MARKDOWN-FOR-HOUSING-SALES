@@ -1,0 +1,11 @@
+--Regression of Area and Price
+
+```{r}
+reg1=lm(area~price, data = df)
+```
+
+ FX HGF GFX```{r}
+ggplot(df,aes(x = area, y = price)) + 
+  geom_point() + 
+  geom_smooth(method = "lm", se=FALSE)
+```
