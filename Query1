@@ -1,0 +1,4 @@
+--Average Price
+
+```{r}
+mean(df$price)
