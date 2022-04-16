@@ -1,0 +1,4 @@
+--Price of housing plots depend only 28.73% on Area
+
+```{r}
+summary(reg1)
