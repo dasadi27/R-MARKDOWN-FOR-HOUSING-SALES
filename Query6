@@ -1,0 +1,10 @@
+--Histogram:Price
+
+```{r}
+ggplot(df) +
+  geom_histogram(aes(x = price), fill = '#EFA2CB') + #geom_histogram
+  labs(
+    title = 'Histogram of Price',
+    x = 'Price',
+    y = 'Frequency'
+  ) 
