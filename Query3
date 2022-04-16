@@ -1,0 +1,10 @@
+--DISTRIBUTION OF AREA
+```{r}
+ggplot(df)+
+  geom_density(aes(x=area),fill='#ccccff')+
+  labs(
+    title = "Distribution of area",
+    x="area" ,
+    y="Frequency"
+  )
+```
